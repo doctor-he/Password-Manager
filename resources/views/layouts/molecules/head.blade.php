@@ -12,8 +12,8 @@
 
 <link rel="canonical" href="{{ config('app.url') }}">
 
-<link rel="stylesheet" href="@asset('build/css/main.min.css')" />
+<link rel="stylesheet" href="{{asset('build/css/main.min.css') }}" />
 
-<link rel="icon" href="@asset('favicon.ico')" type="image/png">
+<link rel="icon" href="{{ asset('favicon.ico') }}" type="image/png">
 
 <script>const WWW = '{{ rtrim(asset('/'), '/') }}';</script>

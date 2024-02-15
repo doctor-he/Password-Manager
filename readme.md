@@ -60,6 +60,8 @@ git clone https://github.com/eusonlito/Password-Manager.git
 cp .env.example .env
 ```
 
+And don't forget to change the (APP_URL and ASSET_URL) on newly created .env
+
 4. Install composer dependencies (remember that we always use the PHP 8.1 binary).
 
 ```bash
